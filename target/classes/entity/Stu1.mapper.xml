@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<orm-mapping>
+    <class name="entity.Stu1" table="Student">
+        <id name="id" column="SId"/>
+        <property name="name" column="Sname"/>
+        <property name="age" column="Sage"/>
+    </class>
+</orm-mapping>

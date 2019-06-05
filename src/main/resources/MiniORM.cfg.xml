@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<orm-factory>
+    <property name="url">jdbc:sqlserver://127.0.0.1:1433;databasename=stu1</property>
+    <property name="driver">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="username">lwl</property>
+    <property name="password">123456</property>
+
+    <mapping resource="entity/Demo.mapper.xml"/>
+    <mapping resource="entity/Stu.mapper.xml"/>
+<!--    <mapping resource="entity/Demo.mapper.xml"/>-->
+    <entity package="entity"/>
+
+</orm-factory>
